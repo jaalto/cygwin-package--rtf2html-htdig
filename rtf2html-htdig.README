@@ -1,0 +1,73 @@
+rtf2html-htdig
+------------------------------------------
+
+Utility to convert RTF files into simple HTML files
+
+This version of rtf2html has been developed by David Lippi Gabriele and
+Bartolini. It is based on an earlier work by Dmitry Porapov. who
+in turn based his work on Chuck Shotton. The program is hosted
+at Sourceforge's htdig CVS repository; under contrib/rtf2html.
+
+Runtime requirements:
+  cygwin
+
+Build requirements:
+  cygwin
+
+Canonical homepage:
+  http://sourceforge.net/projects/htdig/
+
+Canonical download:
+  Only available through CVS
+  cvs -d:pserver:anonymous@htdig.cvs.sourceforge.net:/cvsroot/htdig login
+  cvs -d:pserver:anonymous@htdig.cvs.sourceforge.net:/cvsroot/htdig co -d rtf2html-htdig-$(date "+%Y%m%d") htdig/contrib/rtf2html
+
+Version control repository:
+
+Mailing list:
+
+IRC channel:
+
+Upstream contact:
+  Author: David Lippi <d.lippi@comune.prato.it>, Gabriele Bartolini <g.bartolini@comune.prato.it>
+  Bugs: Gabriele Bartolini <angusgb@users.sourceforge.net>
+
+License:
+  GPL
+
+Language:
+  C
+
+------------------------------------
+
+Build instructions:
+  unpack rtf2html-htdig-20060227-1-src.tar.bz2
+    if you use setup to install this src package, it will be
+    unpacked under /usr/src automatically
+  cd /usr/src
+  ./rtf2html-htdig*.sh all
+
+This will create:
+  rtf2html-htdig-20060227-1.tar.bz2
+  rtf2html-htdig-20060227-1-src.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary distro:
+
+usr/bin/rtf2html-htdig.exe
+usr/share/doc/Cygwin/rtf2html-htdig-20060227.README
+usr/share/doc/rtf2html-htdig-20060227/COPYING
+usr/share/doc/rtf2html-htdig-20060227/README
+usr/share/man/man1/rtf2html-htdig.1.gz
+
+------------------
+
+Port Notes:
+
+----- version 20060227-1 -----
+- Initial Private 2006-02-27 Jari Aalto
+- Makefile: rewritten for Cygwin
+  ITP: http://cygwin.com/ml/cygwin-apps/2006-02/msg00239.html
+
+Cygwin port maintained by: Jari Aalto <jari dt aalto A T cante dt net>
