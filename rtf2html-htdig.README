@@ -3,10 +3,10 @@ rtf2html-htdig
 
 Utility to convert RTF files into simple HTML files
 
-This version of rtf2html has been developed by David Lippi Gabriele and
-Bartolini. It is based on an earlier work by Dmitry Porapov. who
-in turn based his work on Chuck Shotton. The program is hosted
-at Sourceforge's htdig CVS repository; under contrib/rtf2html.
+This version of rtf2html is from htdig project and
+it can handle character set recognition at run-time.
+currently, the ANSI Windows 1252 code and the Macintosh's are
+supported.
 
 Runtime requirements:
   cygwin
