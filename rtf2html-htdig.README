@@ -15,10 +15,11 @@ Build requirements:
   cygwin
 
 Canonical homepage:
-  http://sourceforge.net/projects/htdig/
+  http://sourceforge.net/projects/htdig
 
 Canonical download:
-  Only available through CVS
+  Only available through version control
+  http://htdig.cvs.sourceforge.net/viewvc/htdig/htdig/contrib/rtf2html/
   cvs -d:pserver:anonymous@htdig.cvs.sourceforge.net:/cvsroot/htdig login
   cvs -d:pserver:anonymous@htdig.cvs.sourceforge.net:/cvsroot/htdig co -d rtf2html-htdig-$(date "+%Y%m%d") htdig/contrib/rtf2html
 
@@ -33,7 +34,7 @@ Upstream contact:
   Bugs: Gabriele Bartolini <angusgb@users.sourceforge.net>
 
 License:
-  GPL
+  GPL-2+
 
 Language:
   C
@@ -41,33 +42,29 @@ Language:
 ------------------------------------
 
 Build instructions:
-  unpack rtf2html-htdig-20060227-1-src.tar.bz2
+  unpack rtf2html-htdig-20040602-1-src.tar.bz2
     if you use setup to install this src package, it will be
     unpacked under /usr/src automatically
   cd /usr/src
   ./rtf2html-htdig*.sh all
 
 This will create:
-  rtf2html-htdig-20060227-1.tar.bz2
-  rtf2html-htdig-20060227-1-src.tar.bz2
+  rtf2html-htdig-20040602-1.tar.bz2
+  rtf2html-htdig-20040602-1-src.tar.bz2
 
 -------------------------------------------
 
 Files included in the binary distro:
-
-usr/bin/rtf2html-htdig.exe
-usr/share/doc/Cygwin/rtf2html-htdig-20060227.README
-usr/share/doc/rtf2html-htdig-20060227/COPYING
-usr/share/doc/rtf2html-htdig-20060227/README
-usr/share/man/man1/rtf2html-htdig.1.gz
+  See Cygwin package archive
 
 ------------------
 
 Port Notes:
+- The release number is based on last date in upstream version
+  control.
 
------ version 20060227-1 -----
-- Initial Private 2006-02-27 Jari Aalto
-- Makefile: rewritten for Cygwin
-  ITP: http://cygwin.com/ml/cygwin-apps/2006-02/msg00239.html
+----- version 20040602-1 -----
+- Initial release 2012-09-26 Jari Aalto
 
-Cygwin port maintained by: Jari Aalto <jari dt aalto A T cante dt net>
+Cygwin port maintained by: Jari Aalto <jari.aalto@cante.net>
+Copyright (C) 2012 Jari Aalto; Licensed under GPL v2 or later
