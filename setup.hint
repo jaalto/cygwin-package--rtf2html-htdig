@@ -1,4 +1,4 @@
 sdesc: "Utility to convert RTF files into simple HTML files"
-ldesc: "This version of rtf2html is from htdig project.
-category: text
+ldesc: "This version of rtf2html is from htdig project."
+category: Text
 requires: cygwin
