@@ -4,4 +4,4 @@ it can handle character set recognition at run-time.
 currently, the ANSI Windows 1252 code and the Macintosh's are
 supported."
 category: Text
-requires: cygwin
+requires:
